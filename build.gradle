@@ -26,3 +26,9 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    androidx_version = '1.1.0'
+    androidx_test_version = '1.2.0'
+    dagger_version = '2.25.2'
+}
